@@ -36,8 +36,8 @@ class BMXBike extends Bike {
     super();
     this.brakes = {
       front : false,
-      back : true,
-    };
+      back : true
+    }
     this.tires.diameter[0] = 20;
     this.tires.diameter[1] = 20;
   }
